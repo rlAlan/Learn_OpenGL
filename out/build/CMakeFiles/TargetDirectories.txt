@@ -1,0 +1,8 @@
+/home/alan/DevS/Cpp/OpenGl/out/build/CMakeFiles/test_window.dir
+/home/alan/DevS/Cpp/OpenGl/out/build/CMakeFiles/edit_cache.dir
+/home/alan/DevS/Cpp/OpenGl/out/build/CMakeFiles/rebuild_cache.dir
+/home/alan/DevS/Cpp/OpenGl/out/build/Libs/CMakeFiles/edit_cache.dir
+/home/alan/DevS/Cpp/OpenGl/out/build/Libs/CMakeFiles/rebuild_cache.dir
+/home/alan/DevS/Cpp/OpenGl/out/build/Libs/glad/CMakeFiles/glad.dir
+/home/alan/DevS/Cpp/OpenGl/out/build/Libs/glad/CMakeFiles/edit_cache.dir
+/home/alan/DevS/Cpp/OpenGl/out/build/Libs/glad/CMakeFiles/rebuild_cache.dir

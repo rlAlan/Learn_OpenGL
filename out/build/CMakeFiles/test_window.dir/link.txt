@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_window.dir/main.cpp.o -o test_window  Libs/glad/libglad.a -lglfw -lrt -lXrandr -lXinerama -lXi -lGL -lm -ldl -lXrender -lX11 -lpthread 
