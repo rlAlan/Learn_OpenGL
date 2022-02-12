@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/alan/DevS/Cpp/OpenGl/Libs/glad/glad.c" "Libs/glad/CMakeFiles/glad.dir/glad.c.o" "gcc" "Libs/glad/CMakeFiles/glad.dir/glad.c.o.d"
+  "/home/alan/DevS/Cpp/Learn_OpenGL/Libs/glad/glad.c" "Libs/glad/CMakeFiles/glad.dir/glad.c.o" "gcc" "Libs/glad/CMakeFiles/glad.dir/glad.c.o.d"
   )
 
 # Targets to which this target links.

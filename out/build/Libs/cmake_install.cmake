@@ -1,4 +1,4 @@
-# Install script for directory: /home/alan/DevS/Cpp/OpenGl/Libs
+# Install script for directory: /home/alan/DevS/Cpp/Learn_OpenGL/Libs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,6 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/alan/DevS/Cpp/OpenGl/out/build/Libs/glad/cmake_install.cmake")
+  include("/home/alan/DevS/Cpp/Learn_OpenGL/out/build/Libs/glad/cmake_install.cmake")
 endif()
 

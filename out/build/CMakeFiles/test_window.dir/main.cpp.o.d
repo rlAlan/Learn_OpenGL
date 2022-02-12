@@ -1,6 +1,6 @@
 CMakeFiles/test_window.dir/main.cpp.o: \
- /home/alan/DevS/Cpp/OpenGl/main.cpp /usr/include/stdc-predef.h \
- /home/alan/DevS/Cpp/OpenGl/Libs/glad/glad.h \
+ /home/alan/DevS/Cpp/Learn_OpenGL/main.cpp /usr/include/stdc-predef.h \
+ /home/alan/DevS/Cpp/Learn_OpenGL/Libs/glad/glad.h \
  /usr/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
@@ -128,8 +128,4 @@ CMakeFiles/test_window.dir/main.cpp.o: \
  /usr/include/c++/11.1.0/bits/locale_facets.tcc \
  /usr/include/c++/11.1.0/bits/basic_ios.tcc \
  /usr/include/c++/11.1.0/bits/ostream.tcc /usr/include/c++/11.1.0/istream \
- /usr/include/c++/11.1.0/bits/istream.tcc /usr/include/c++/11.1.0/vector \
- /usr/include/c++/11.1.0/bits/stl_uninitialized.h \
- /usr/include/c++/11.1.0/bits/stl_vector.h \
- /usr/include/c++/11.1.0/bits/stl_bvector.h \
- /usr/include/c++/11.1.0/bits/vector.tcc
+ /usr/include/c++/11.1.0/bits/istream.tcc

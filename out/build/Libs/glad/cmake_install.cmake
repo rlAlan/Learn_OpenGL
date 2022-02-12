@@ -1,4 +1,4 @@
-# Install script for directory: /home/alan/DevS/Cpp/OpenGl/Libs/glad
+# Install script for directory: /home/alan/DevS/Cpp/Learn_OpenGL/Libs/glad
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
