@@ -270,6 +270,3 @@ the vertex buffer is as follows
 - the first value is the begining
  with this knowledge we can tell OpenGL how it should interpret the vertex data (per vertex attribute)
  using the glVertexAttribPointer function 
-
-
-

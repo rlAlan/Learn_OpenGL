@@ -1,0 +1,114 @@
+# the obj code 111 lines after the main function
+
+00000000000012b9 <main>:
+    12b9:	55                   	push   rbp
+    12ba:	48 89 e5             	mov    rbp,rsp
+    12bd:	48 81 ec 60 02 00 00 	sub    rsp,0x260
+    12c4:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+    12cb:	00 00 
+    12cd:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
+    12d1:	31 c0                	xor    eax,eax
+    12d3:	e8 38 fe ff ff       	call   1110 <glfwInit@plt>
+    12d8:	85 c0                	test   eax,eax
+    12da:	0f 94 c0             	sete   al
+    12dd:	84 c0                	test   al,al
+    12df:	74 0a                	je     12eb <main+0x32>
+    12e1:	b8 ff ff ff ff       	mov    eax,0xffffffff
+    12e6:	e9 8d 05 00 00       	jmp    1878 <main+0x5bf>
+    12eb:	be 04 00 00 00       	mov    esi,0x4
+    12f0:	bf 02 20 02 00       	mov    edi,0x22002
+    12f5:	e8 96 fd ff ff       	call   1090 <glfwWindowHint@plt>
+    12fa:	be 06 00 00 00       	mov    esi,0x6
+    12ff:	bf 03 20 02 00       	mov    edi,0x22003
+    1304:	e8 87 fd ff ff       	call   1090 <glfwWindowHint@plt>
+    1309:	be 01 20 03 00       	mov    esi,0x32001
+    130e:	bf 08 20 02 00       	mov    edi,0x22008
+    1313:	e8 78 fd ff ff       	call   1090 <glfwWindowHint@plt>
+    1318:	41 b8 00 00 00 00    	mov    r8d,0x0
+    131e:	b9 00 00 00 00       	mov    ecx,0x0
+    1323:	48 8d 05 b1 5d 00 00 	lea    rax,[rip+0x5db1]        # 70db <_IO_stdin_used+0xdb>
+    132a:	48 89 c2             	mov    rdx,rax
+    132d:	be 70 03 00 00       	mov    esi,0x370
+    1332:	bf b0 04 00 00       	mov    edi,0x4b0
+    1337:	e8 54 fe ff ff       	call   1190 <glfwCreateWindow@plt>
+    133c:	48 89 85 b8 fd ff ff 	mov    QWORD PTR [rbp-0x248],rax
+    1343:	48 83 bd b8 fd ff ff 	cmp    QWORD PTR [rbp-0x248],0x0
+    134a:	00 
+    134b:	75 28                	jne    1375 <main+0xbc>
+    134d:	48 8d 05 8e 5d 00 00 	lea    rax,[rip+0x5d8e]        # 70e2 <_IO_stdin_used+0xe2>
+    1354:	48 89 c6             	mov    rsi,rax
+    1357:	48 8d 05 e2 ad 00 00 	lea    rax,[rip+0xade2]        # c140 <_ZSt4cout@GLIBCXX_3.4>
+    135e:	48 89 c7             	mov    rdi,rax
+    1361:	e8 7a fd ff ff       	call   10e0 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    1366:	e8 85 fd ff ff       	call   10f0 <glfwTerminate@plt>
+    136b:	b8 ff ff ff ff       	mov    eax,0xffffffff
+    1370:	e9 03 05 00 00       	jmp    1878 <main+0x5bf>
+    1375:	48 8b 85 b8 fd ff ff 	mov    rax,QWORD PTR [rbp-0x248]
+    137c:	48 89 c7             	mov    rdi,rax
+    137f:	e8 dc fc ff ff       	call   1060 <glfwMakeContextCurrent@plt>
+    1384:	48 8b 05 3d ac 00 00 	mov    rax,QWORD PTR [rip+0xac3d]        # bfc8 <glfwGetProcAddress@Base>
+    138b:	48 89 c7             	mov    rdi,rax
+    138e:	e8 e5 4f 00 00       	call   6378 <gladLoadGLLoader>
+    1393:	85 c0                	test   eax,eax
+    1395:	0f 94 c0             	sete   al
+    1398:	84 c0                	test   al,al
+    139a:	74 28                	je     13c4 <main+0x10b>
+    139c:	48 8d 05 58 5d 00 00 	lea    rax,[rip+0x5d58]        # 70fb <_IO_stdin_used+0xfb>
+    13a3:	48 89 c6             	mov    rsi,rax
+    13a6:	48 8d 05 93 ad 00 00 	lea    rax,[rip+0xad93]        # c140 <_ZSt4cout@GLIBCXX_3.4>
+    13ad:	48 89 c7             	mov    rdi,rax
+    13b0:	e8 2b fd ff ff       	call   10e0 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    13b5:	e8 36 fd ff ff       	call   10f0 <glfwTerminate@plt>
+    13ba:	b8 ff ff ff ff       	mov    eax,0xffffffff
+    13bf:	e9 b4 04 00 00       	jmp    1878 <main+0x5bf>
+    13c4:	48 8b 05 d5 c4 00 00 	mov    rax,QWORD PTR [rip+0xc4d5]        # d8a0 <glad_glViewport>
+    13cb:	b9 70 03 00 00       	mov    ecx,0x370
+    13d0:	ba b0 04 00 00       	mov    edx,0x4b0
+    13d5:	be 00 00 00 00       	mov    esi,0x0
+    13da:	bf 00 00 00 00       	mov    edi,0x0
+    13df:	ff d0                	call   rax
+    13e1:	48 8b 85 b8 fd ff ff 	mov    rax,QWORD PTR [rbp-0x248]
+    13e8:	48 8d 15 9f 04 00 00 	lea    rdx,[rip+0x49f]        # 188e <_Z20frameWindow_callbackP10GLFWwindowii>
+    13ef:	48 89 d6             	mov    rsi,rdx
+    13f2:	48 89 c7             	mov    rdi,rax
+    13f5:	e8 a6 fd ff ff       	call   11a0 <glfwSetWindowSizeCallback@plt>
+    13fa:	48 8b 05 bf b1 00 00 	mov    rax,QWORD PTR [rip+0xb1bf]        # c5c0 <glad_glCreateShader>
+    1401:	bf 31 8b 00 00       	mov    edi,0x8b31
+    1406:	ff d0                	call   rax
+    1408:	89 85 ac fd ff ff    	mov    DWORD PTR [rbp-0x254],eax
+    140e:	4c 8b 05 f3 bd 00 00 	mov    r8,QWORD PTR [rip+0xbdf3]        # d208 <glad_glShaderSource>
+    1415:	8b 85 ac fd ff ff    	mov    eax,DWORD PTR [rbp-0x254]
+    141b:	b9 00 00 00 00       	mov    ecx,0x0
+    1420:	48 8d 15 c9 ac 00 00 	lea    rdx,[rip+0xacc9]        # c0f0 <vertexShaderSource>
+    1427:	be 01 00 00 00       	mov    esi,0x1
+    142c:	89 c7                	mov    edi,eax
+    142e:	41 ff d0             	call   r8
+    1431:	48 8b 15 10 b1 00 00 	mov    rdx,QWORD PTR [rip+0xb110]        # c548 <glad_glCompileShader>
+    1438:	8b 85 ac fd ff ff    	mov    eax,DWORD PTR [rbp-0x254]
+    143e:	89 c7                	mov    edi,eax
+    1440:	ff d2                	call   rdx
+    1442:	48 8b 0d d7 b5 00 00 	mov    rcx,QWORD PTR [rip+0xb5d7]        # ca20 <glad_glGetShaderiv>
+    1449:	48 8d 95 a0 fd ff ff 	lea    rdx,[rbp-0x260]
+    1450:	8b 85 ac fd ff ff    	mov    eax,DWORD PTR [rbp-0x254]
+    1456:	be 81 8b 00 00       	mov    esi,0x8b81
+    145b:	89 c7                	mov    edi,eax
+    145d:	ff d1                	call   rcx
+    145f:	8b 85 a0 fd ff ff    	mov    eax,DWORD PTR [rbp-0x260]
+    1465:	85 c0                	test   eax,eax
+    1467:	75 61                	jne    14ca <main+0x211>
+    1469:	4c 8b 05 a0 b5 00 00 	mov    r8,QWORD PTR [rip+0xb5a0]        # ca10 <glad_glGetShaderInfoLog>
+    1470:	48 8d 95 f0 fd ff ff 	lea    rdx,[rbp-0x210]
+    1477:	8b 85 ac fd ff ff    	mov    eax,DWORD PTR [rbp-0x254]
+    147d:	48 89 d1             	mov    rcx,rdx
+    1480:	ba 00 00 00 00       	mov    edx,0x0
+    1485:	be 00 02 00 00       	mov    esi,0x200
+    148a:	89 c7                	mov    edi,eax
+    148c:	41 ff d0             	call   r8
+    148f:	48 8d 05 7a 5c 00 00 	lea    rax,[rip+0x5c7a]        # 7110 <_IO_stdin_used+0x110>
+    1496:	48 89 c6             	mov    rsi,rax
+    1499:	48 8d 05 a0 ac 00 00 	lea    rax,[rip+0xaca0]        # c140 <_ZSt4cout@GLIBCXX_3.4>
+    14a0:	48 89 c7             	mov    rdi,rax
+    14a3:	e8 38 fc ff ff       	call   10e0 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    14a8:	48 89 c2             	mov    rdx,rax
+    14ab:	48 8d 85 f0 fd ff ff 	lea    rax,[rbp-0x210]
+    14b2:	48 89 c6             	mov    rsi,rax
