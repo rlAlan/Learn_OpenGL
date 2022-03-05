@@ -116,7 +116,7 @@ int main()
         glUseProgram(shaderProgram); // these dont need to be inside the while loop
         glBindVertexArray(VAO); // these dont need to be inside the while loop
         glDrawArrays(GL_TRIANGLES, 0, 4);
-        glfwSwapBuffers(window);
+        glfwSwapBuffers(window); // needs to come at the end otherwise will swap buffer before being drawn
     }
 
 
